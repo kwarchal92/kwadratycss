@@ -2,23 +2,23 @@
     height: 400px;
     width: 400px;
     border: 10px rgb(61, 56, 56) solid;
-    position: relative;
     background-color: #a6a9b6;
-  }
+	position: relative;
+ }
   
-  .inner{
+ .inner{
     width:200px;
     height: 200px;
-    position: relative;
+    position: absolute;
     
-  }
+ }
   
-  .gray{
+ .gray{
     background-color: #e4e4e4;
-    right: -200px;
-  }
+    right: 0;
+ }
   
-  .orange{
+ .orange{
     background-color: #ff912e;
-    bottom: 0px;
-  }
+    bottom: 0;
+ }
